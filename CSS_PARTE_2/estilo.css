@@ -1,0 +1,46 @@
+
+
+.cambiante {
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.texto {
+    
+    padding: 10px;
+    margin: 10px;
+    background-color: coral;
+}
+
+.texto:hover{
+    color: white;
+    font-size: 100px;
+
+}
+
+#a:hover{
+    position: relative;
+    top: -50px;
+    left: 50px;
+    color: darkgreen;
+}
+#b:hover{
+    position: relative;
+    top: -100px;
+    left: -50px;
+    color: blue;
+}
+
+#c:hover{
+    position: relative;
+    top: 100px;
+    left: -200px;
+    color: yellow;
+}
+#d:hover{
+    position: relative;
+    top: 100px;
+    left: 300px;
+    color: pink;
+}

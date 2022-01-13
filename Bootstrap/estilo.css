@@ -1,0 +1,28 @@
+img {
+	height: 600px;
+	width: 80%;
+}
+body {
+	background-color: rgba(0, 0, 0, 0.705);
+
+}
+.con {
+	display: flex;
+
+}
+
+.enc {
+	display: inline-flex;
+	position: relative;
+	top: 0px;
+	left: 60%;
+	padding: 10px;
+}
+h2 {
+	margin: 20px;
+	color: blanchedalmond;
+}
+.car{
+	border: solid 1px black;
+	margin: 50px;
+}

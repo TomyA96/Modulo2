@@ -1,0 +1,31 @@
+
+.caja {
+
+    height: 300px;
+    width: 400px;
+    background: -moz-radial-gradient(center, ellipse cover, rgba(226,45,226,1) 0%, rgba(50,44,224,1) 13%, rgba(44,215,224,1) 26%, rgba(43,219,81,1) 38%, rgba(173,215,49,1) 48%, rgba(199,214,42,0.97) 50%, rgba(252,148,50,0.78) 63%, rgba(255,50,50,0.61) 75%, rgba(255,50,50,0.27) 98%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(226,45,226,1) 0%,rgba(50,44,224,1) 13%,rgba(44,215,224,1) 26%,rgba(43,219,81,1) 38%,rgba(173,215,49,1) 48%,rgba(199,214,42,0.97) 50%,rgba(252,148,50,0.78) 63%,rgba(255,50,50,0.61) 75%,rgba(255,50,50,0.27) 98%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, rgba(226,45,226,1) 0%,rgba(50,44,224,1) 13%,rgba(44,215,224,1) 26%,rgba(43,219,81,1) 38%,rgba(173,215,49,1) 48%,rgba(199,214,42,0.97) 50%,rgba(252,148,50,0.78) 63%,rgba(255,50,50,0.61) 75%,rgba(255,50,50,0.27) 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e22de2', endColorstr='#45ff3232',GradientType=1 );
+   border: solid;
+   padding: 50px;
+    
+    
+
+}
+
+#caja1 {
+    box-shadow:20px 10px 10px black;
+    border-radius: 50px 0px;
+}
+#caja2 {
+    columns: 3;
+    column-rule:solid black;
+    border-radius: 50% 10px;
+}
+.icono{
+    font-size: 100px;
+    color: blue;
+    background-color: red;
+    
+}
